@@ -158,7 +158,7 @@ boolean oneSecondHasPassed() {
  *  was updated with the 'currentTime' number.
  */
 boolean oneMinuteHasPassed() {
-  const unsigned int oneMinute = 6000; // 60 seconds.
+  const unsigned int oneMinute = 60000; // 60 seconds.
   return currentTime > previousTime + oneMinute;
 }
 
